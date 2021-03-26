@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(0, 174, 255);
+  }
+
+*{
+    margin:0;
+    padding:10;
+}
+#time {
+    font-size: 10rem;
+    line-height: .9;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+
+    
+}
+.class-timer {
+    width:400px; /* or whatever width you want. */
+    max-width:400px; /* or whatever width you want. */
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: flex;
+
+    
+    background-color: rgb(250, 209, 6);
+}
+.timer-wrapper{
+    align-items: right;
+    justify-content: right;
+}
+.classList{
+  
+   width: 200px;
+}
+.students{
+    display: flex;
+    flex-wrap: wrap;
+}
+.student{
+    width: 200px;
+    font-size: 1.5rem;
+
+}
